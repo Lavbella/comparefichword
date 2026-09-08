@@ -14,7 +14,7 @@ Uma aplicação em Python desenvolvida com **Streamlit** para comparar dois fich
 * **Suporte a Executável:** Arquitetura preparada para conversão em executável independente através do PyInstaller.
 
 ### Estrutura do Projeto
-* `app.py`: Código principal da aplicação Streamlit (v5).
+* `appV5.py`: Código principal da aplicação Streamlit (v5).
 * `app_spec.py`: Criar o Script de bootstrap/inicialização para o executável.
 * `streamlit_app.spec`: Criar o Ficheiro de configuração do PyInstaller.
 * `requirements.txt`: Lista de dependências do ecossistema Python.
@@ -32,7 +32,7 @@ Uma aplicação em Python desenvolvida com **Streamlit** para comparar dois fich
    ```
 3. Inicie a aplicação:
    ```bash
-   streamlit run app.py
+   streamlit run appV5.py
    ```
 
 ### Como Criar o Executável
@@ -57,7 +57,7 @@ A Python application built with **Streamlit** to compare two Word files (`.docx`
 * **Executable Ready:** Architecture fully configured for standalone executable conversion using PyInstaller.
 
 ### Project Structure
-* `app.py`: Main Streamlit application code (v5).
+* `appV5.py`: Main Streamlit application code (v5).
 * `app_spec.py`: Build a Bootstrap/entry-point script for the executable.
 * `streamlit_app.spec`: Build a PyInstaller configuration specification file.
 * `requirements.txt`: Python environment dependencies.
@@ -75,7 +75,7 @@ A Python application built with **Streamlit** to compare two Word files (`.docx`
    ```
 3. Launch the application:
    ```bash
-   streamlit run app.py
+   streamlit run appV5.py
    ```
 
 ### How to Build the Executable
